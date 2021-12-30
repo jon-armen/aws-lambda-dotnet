@@ -20,11 +20,6 @@ on:
         required: true
         default: "true"
 
-  # Allows to run this workflow on script updates
-  pull_request:
-    paths:
-      - 'LambdaRuntimeDockerfiles/update-dockerfile.ps1'
-
 jobs:
   build:
     runs-on: ubuntu-latest
